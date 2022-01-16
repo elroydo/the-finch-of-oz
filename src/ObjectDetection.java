@@ -41,7 +41,7 @@ public class objectDetection {
 	
 	private static void isFinchLevel() {
 		while (!finch.isFinchLevel()) { //while the Finch is not level, run this loop
-			 warning dialog message to the user prompting the to ensure the Finch is level on the ground
+			 //warning dialog message to the user prompting the to ensure the Finch is level on the ground
 			JOptionPane.showMessageDialog(null, "\nPlease ensure the finch is level on the ground to begin the program.\nThen click 'OK' to continue.", "Finch Notice",JOptionPane.WARNING_MESSAGE);
 		}
 	}
